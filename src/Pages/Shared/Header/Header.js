@@ -4,7 +4,8 @@ import logo from '../../../assets/logo/watchLOgo.png'
 const Header = () => {
 
     const menuItems = <>
-    <li><Link to='/'>Home</Link></li>
+        <li><Link to='/'>Home</Link></li>
+        
     </>
 
     return (
