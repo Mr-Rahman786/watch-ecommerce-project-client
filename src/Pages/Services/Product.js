@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import SingleProducts from './SingleProducts';
 
 const Product = () => {
     const [products, setProducts] = useState([]);
@@ -12,11 +13,12 @@ const Product = () => {
             <div>
                 <h1 className='font-semibold'>Apple watch</h1>
             </div>
-            <div>
-                <h1>{products.length}</h1>
-                
+            <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-6'>
                 {
-                    
+                    products.map(product => <SingleProducts
+                        key={product._id}
+                        product={product}
+                    ></SingleProducts>)
                 }
             </div>
         </div>

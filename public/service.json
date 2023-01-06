@@ -5,6 +5,11 @@
         "title": "Apple go adition pro",
         "img": "https://i.pinimg.com/564x/e3/1b/e6/e31be6272547b3f27d39b69db3186797.jpg",
         "price": "270.00",
+        "resale_price":"170",
+        "use":"7 month",
+        "posted":"01 january 2023",
+        "sellerName":"Ariana grande",
+        "sellerProfile":"https://media.istockphoto.com/id/1369508766/photo/beautiful-successful-latin-woman-smiling.jpg?b=1&s=170667a&w=0&k=20&c=owOOPDbI6VOp1xYA4smdTNSHxjcJGRtGfVXx24g6J4c=",
         "description": "Apple Go adition is perticuler there perpose of kind is thinkin best products"
     },
     {
@@ -12,7 +17,12 @@
         "service_id": "05",
         "title": "Apple slod G9",
         "img": "https://i.pinimg.com/564x/7f/41/cd/7f41cd842d9c1adbfc90999ecae8c9ff.jpg",
-        "price": "20.00",
+        "price": "200.00",
+        "resale_price": "150",
+        "use": "5 month",
+        "posted": "27 December 2022",
+        "sellerName": "Lora Iskuld",
+        "sellerProfile": "https://img.freepik.com/free-photo/smiling-confident-businesswoman-posing-with-arms-folded_1262-20950.jpg?w=2000",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
         
     },
@@ -21,7 +31,12 @@
         "service_id": "01",
         "title": "Apple F52 Water profe",
         "img": "https://i.pinimg.com/736x/28/f0/c3/28f0c347d89de30f054496aa7670f111.jpg",
-        "price": "200.00",
+        "price": "230.00",
+        "resale_price": "160",
+        "use": "1 years",
+        "posted": "05 january 2023",
+        "sellerName": "Devid loies",
+        "sellerProfile": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
     },
 
@@ -30,7 +45,12 @@
         "service_id": "02",
         "title": "Apple C62 Double sensor",
         "img": "https://i.pinimg.com/564x/2f/4a/f3/2f4af39a400d32077023ffc2f2e6ba55.jpg",
-        "price": "150.00",
+        "price": "130.00",
+        "resale_price": "100.00",
+        "use": "9 month",
+        "posted": "03 january 2023",
+        "sellerName": "Don serway",
+        "sellerProfile": "https://cdn.webshopapp.com/shops/50297/files/404926835/image.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
     },
 
@@ -39,7 +59,12 @@
         "service_id": "03",
         "title": "Apple Liper Pro",
         "img": "https://i.pinimg.com/564x/45/e7/fe/45e7fe3f18e7083d42f9f8f8065fcdd8.jpg",
-        "price": "30.00",
+        "price": "300.00",
+        "resale_price": "170",
+        "use": "1 years",
+        "posted": "02 january 2023",
+        "sellerName": "Paul lender",
+        "sellerProfile": "https://www.shutterstock.com/image-photo/young-man-studio-looking-cameraportrait-260nw-139246634.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
         
     },
@@ -51,38 +76,58 @@
         "partsImg":"",
         "title": "Apple Gumble pro",
         "img": "https://i.pinimg.com/564x/23/df/1f/23df1f64a8026b00b3b7a6a47618ec77.jpg",
-        "price": "20.00",
+        "price": "280.00",
+        "resale_price": "190.00",
+        "use": "6 month",
+        "posted": "06 january 2023",
+        "sellerName": "Menso elip",
+        "sellerProfile": "https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
         
     },
 
     {
-        "_id": "635b5ba51dafe382a9da8c9a",
+        "_id": "635b5ba51dafe382a9da8c9b",
         "service_id": "07",
         "partsImg": "",
         "title": "Apple Sollow",
         "img": "https://i.pinimg.com/564x/b7/f4/bd/b7f4bdabc2d414e9ea868e71ece192cc.jpg",
-        "price": "20.00",
+        "price": "500.00",
+        "resale_price": "430.00",
+        "use": "3month",
+        "posted": "06 january 2023",
+        "sellerName": "Lisa alisabed",
+        "sellerProfile": "https://img.freepik.com/free-photo/portrait-young-businesswoman-holding-eyeglasses-hand-against-gray-backdrop_23-2148029483.jpg?w=2000",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
     },
 
     {
-        "_id": "635b5ba51dafe382a9da8c9a",
+        "_id": "635b5ba51dafe382a9da8c93c",
         "service_id": "08",
         "partsImg": "",
         "title": "Apple Series 8",
         "img": "https://i.pinimg.com/564x/c8/4d/cb/c84dcbec6b591444ea47237d40f3740f.jpg",
-        "price": "20.00",
+        "price": "300.00",
+        "resale_price": "270",
+        "use": "5 month",
+        "posted": "04 january 2023",
+        "sellerName": "Ara gran",
+        "sellerProfile": "http://www.woman-themovie.org/wp-content/uploads/2020/02/CHAUD_Celine-W_78-FRANCE_24-FACIES-LVMH-CALLIGARO_Sandra-V.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
     },
 
     {
-        "_id": "635b5ba51dafe382a9da8c9a",
+        "_id": "635b5ba51dafe382a9da8c9fc",
         "service_id": "09",
         "partsImg": "",
         "title": "Apple Pro Edition",
         "img": "https://i.pinimg.com/564x/04/9a/a8/049aa88a228ea61d9176d42750efe155.jpg",
-        "price": "20.00",
+        "price": "208.00",
+        "resale_price": "150.00",
+        "use": "9 month",
+        "posted": "01 january 2023",
+        "sellerName": "Range Colso",
+        "sellerProfile": "https://mensline.org.au/wp-content/uploads/2020/05/Excuses-header-1024x683.jpg",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
     }
 ]

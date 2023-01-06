@@ -5,6 +5,7 @@ const Header = () => {
 
     const menuItems = <>
         <li><Link to='/'>Home</Link></li>
+        <li><Link to='/login'>Login</Link></li>
         
     </>
 
@@ -29,7 +30,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className="btn btn-outline btn-primary">Preview</button>
+                <button className="btn btn-outline">Subscribe</button>
             </div>
         </div>
     );
