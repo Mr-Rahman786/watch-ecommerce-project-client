@@ -1,6 +1,5 @@
 [
     {
-        "_id": "635a0c0b64a6d231228942ae",
         "service_id": "04",
         "title": "Apple go adition pro",
         "img": "https://i.pinimg.com/564x/e3/1b/e6/e31be6272547b3f27d39b69db3186797.jpg",
@@ -13,7 +12,6 @@
         "description": "Apple Go adition is perticuler there perpose of kind is thinkin best products"
     },
     {
-        "_id": "635a0c0b64a6d231228942af",
         "service_id": "05",
         "title": "Apple slod G9",
         "img": "https://i.pinimg.com/564x/7f/41/cd/7f41cd842d9c1adbfc90999ecae8c9ff.jpg",
@@ -27,7 +25,6 @@
         
     },
     {
-        "_id": "635b591a1dafe382a9da8c96",
         "service_id": "01",
         "title": "Apple F52 Water profe",
         "img": "https://i.pinimg.com/736x/28/f0/c3/28f0c347d89de30f054496aa7670f111.jpg",
@@ -41,7 +38,6 @@
     },
 
     {
-        "_id": "635b5afc1dafe382a9da8c98",
         "service_id": "02",
         "title": "Apple C62 Double sensor",
         "img": "https://i.pinimg.com/564x/2f/4a/f3/2f4af39a400d32077023ffc2f2e6ba55.jpg",
@@ -55,7 +51,6 @@
     },
 
     {
-        "_id": "635b5b691dafe382a9da8c99",
         "service_id": "03",
         "title": "Apple Liper Pro",
         "img": "https://i.pinimg.com/564x/45/e7/fe/45e7fe3f18e7083d42f9f8f8065fcdd8.jpg",
@@ -71,7 +66,6 @@
 
 
     {
-        "_id": "635b5ba51dafe382a9da8c9a",
         "service_id": "06",
         "partsImg":"",
         "title": "Apple Gumble pro",
@@ -87,7 +81,6 @@
     },
 
     {
-        "_id": "635b5ba51dafe382a9da8c9b",
         "service_id": "07",
         "partsImg": "",
         "title": "Apple Sollow",
@@ -102,7 +95,6 @@
     },
 
     {
-        "_id": "635b5ba51dafe382a9da8c93c",
         "service_id": "08",
         "partsImg": "",
         "title": "Apple Series 8",
@@ -117,7 +109,6 @@
     },
 
     {
-        "_id": "635b5ba51dafe382a9da8c9fc",
         "service_id": "09",
         "partsImg": "",
         "title": "Apple Pro Edition",

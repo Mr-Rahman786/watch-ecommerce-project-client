@@ -4,7 +4,7 @@ import SingleAccsories from './SingleAccsories';
 const Accosories = () => {
     const [ accsories, setAccsories ] = useState([]);
     useEffect(() => {
-        fetch('accosories.json')
+        fetch('http://localhost:5000/accsories')
             .then(res => res.json())
         .then(data =>setAccsories(data))
     },[])

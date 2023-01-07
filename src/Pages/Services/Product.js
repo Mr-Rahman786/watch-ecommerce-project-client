@@ -4,7 +4,7 @@ import SingleProducts from './SingleProducts';
 const Product = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch('service.json')
+        fetch('http://localhost:5000/services')
             .then(res => res.json())
         .then(data=>setProducts(data))
     }, [])
