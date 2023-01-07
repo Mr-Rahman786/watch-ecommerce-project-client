@@ -28,8 +28,8 @@ const Signup = () => {
                         <i></i>
                     </div>
                     <div className="links">
-                        <Link>Forget Password</Link>
-                        <Link to='/signup'>Signup</Link>
+                        <Link to='/login'>Already have an Account?</Link>
+                        <Link to='/login'>login</Link>
                     </div>
                     <input type="submit" value="login" />
                 </form>
