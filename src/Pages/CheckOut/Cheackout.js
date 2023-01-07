@@ -10,8 +10,11 @@ const Cheackout = () => {
         event.preventDefault();
         const form = event.target;
         const name = `${form.firstName.value} ${form.lastName.value}`;
+        const newPrice = form.orginalPrice.value;
+        const usedPrice = form.resalePrice.value
         const email = user?.email || 'Unregister';
         const phone = form.phone.value;
+        
 
         const order = {
             service: _id,
@@ -19,6 +22,8 @@ const Cheackout = () => {
             customer: name,
             email,
             phone,
+            orginalPrice: newPrice,
+            oldPrice:usedPrice,
         }
         if (phone.length > 10) {
             alert('Phone Numnber should be 10 carrecter longer')
@@ -36,8 +41,15 @@ const Cheackout = () => {
             body: JSON.stringify(order)
         })
             .then(res => res.json())
-            .then(data => console.log(data))
-            .catch(err => console.error(err)); 
+            .then(data => {
+                console.log(data)
+                if (data.acknowledged) {
+                    alert('Order Placed Successfully')
+                    form.reset();
+                }
+            }
+            )
+            .catch(err => console.error(err));
     }
 
     return (
@@ -46,9 +58,9 @@ const Cheackout = () => {
                 <input value={title} type="text" placeholder="Product Name" readOnly className="input input-bordered text-white text-2xl" />
 
                 <p>New Price</p>
-                <input type="text" placeholder={price} readOnly className="input input-bordered text-white" />
+                <input name='orginalPrice' type="text" placeholder={price} readOnly className="input input-bordered text-white" />
                 <p>Used price</p>
-                <input type="text" placeholder={resale_price} readOnly className="input input-bordered text-white" />
+                <input name='resalePrice' type="text" placeholder={resale_price} readOnly className="input input-bordered text-white" />
 
                 <input name='firstName' type="text" placeholder="First Name" className="input input-bordered" />
                 <input name='lastName' type="text" placeholder="Last Name" className="input input-bordered" />

@@ -2,6 +2,7 @@ import { createBrowserRouter} from 'react-router-dom';
 import Main from '../../Layout/Main';
 import AccsoriesCheckout from '../../Pages/AccsoriesCheckOut/AccsoriesCheckout';
 import Cheackout from '../../Pages/CheckOut/Cheackout';
+import DashBord from '../../Pages/DashBord/DashBord';
 import Accosories from '../../Pages/Home/Accsories/Accosories';
 import Home from '../../Pages/Home/Home/Home';
 import Login from '../../Pages/Home/Login/Login';
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
                 path: '/accsoriesCheckout/:id',
                 element: <AccsoriesCheckout></AccsoriesCheckout>,
                 loader: ({ params }) => fetch(`http://localhost:5000/accsories/${params.id}`)
+            },
+            {
+                path: '/dashbord',
+                element:<DashBord></DashBord>
             }
         ]
     }
