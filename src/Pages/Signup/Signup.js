@@ -1,18 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Login.css'
-const Login = () => {
 
+const Signup = () => {
 
-    const handleLogin = event => {
+    const handelSignUp = event => {
         event.preventDefault();
     }
 
     return (
         <div className='body'>
             <div className='box'>
-                <form onSubmit={handleLogin} className="form">
-                    <h2>Login</h2>
+                <form onSubmit={handelSignUp} className="form">
+                    <h2>Sign Up</h2>
+                    <div className="inputBox">
+                        <input type="text" name="name" id="" required />
+                        <span> Enter Your Name</span>
+                        <i></i>
+                    </div>
                     <div className="inputBox">
                         <input type="email" name="email" id="" required />
                         <span> Enter Your Email</span>
@@ -34,4 +38,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default Signup;
