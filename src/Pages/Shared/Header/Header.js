@@ -16,6 +16,7 @@ const Header = () => {
 
     const menuItems = <>
         <li><Link to='/'>Home</Link></li>
+
         {
             user?.email ?
                 <>
@@ -34,7 +35,7 @@ const Header = () => {
                 <img src={user.photoURL} alt="" />
             </div>
         }
-
+        <li><Link to='/blogs'>Blogs</Link></li>
     </>
 
     return (

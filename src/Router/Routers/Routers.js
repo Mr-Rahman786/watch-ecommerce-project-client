@@ -1,4 +1,5 @@
 import { createBrowserRouter} from 'react-router-dom';
+import Blogs from '../../Blog/Blogs';
 import Main from '../../Layout/Main';
 import AccsoriesCheckout from '../../Pages/AccsoriesCheckOut/AccsoriesCheckout';
 import Cheackout from '../../Pages/CheckOut/Cheackout';
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
             {
                 path: '/dashbord',
                 element: <PrivateRoute><DashBord></DashBord></PrivateRoute>
+            },
+            {
+                path: '/blogs',
+                element:<Blogs></Blogs>
             }
         ]
     }

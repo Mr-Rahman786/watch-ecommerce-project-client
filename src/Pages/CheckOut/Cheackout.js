@@ -14,7 +14,7 @@ const Cheackout = () => {
         const usedPrice = form.resalePrice.value
         const email = user?.email || 'Unregister';
         const phone = form.phone.value;
-        
+
 
         const order = {
             service: _id,
@@ -23,7 +23,7 @@ const Cheackout = () => {
             email,
             phone,
             orginalPrice: newPrice,
-            oldPrice:usedPrice,
+            oldPrice: usedPrice,
         }
         if (phone.length > 10) {
             alert('Phone Numnber should be 10 carrecter longer')
@@ -66,7 +66,7 @@ const Cheackout = () => {
                 <input name='lastName' type="text" placeholder="Last Name" className="input input-bordered" />
                 <input name='phone' type="number" placeholder="Your phone" className="input input-bordered" />
                 <input name='email' type="email" placeholder="Your Email" className="input input-bordered" defaultValue={user?.email} readOnly />
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto mt-10 gap-3'>
                     <div>
                         <Link to='/watch'><button className="btn btn-accent  mx-auto">Bak to Home</button></Link>
 
