@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 const DashBordRow = ({ order, handleDelete, handleUpdate }) => {
     const { _id, serviceName, email, customer, phone, oldPrice, service, status } = order;
     const [orderService, setOrderService] = useState({});
+    
     useEffect(() => {
         fetch(`http://localhost:5000/services/${service}`)
             .then(res => res.json())
@@ -57,7 +58,7 @@ const DashBordRow = ({ order, handleDelete, handleUpdate }) => {
                 <small>{email}</small>
             </th>
             <th>
-                <button className='btn btn-ghost btn-xs bg-lime-800 text-white'>{ status?status:'Pending'}</button>
+                <button className='btn btn-ghost btn-xs bg-lime-800 text-white'>{status ? status : 'Pending'}</button>
             </th>
         </tr>
     );

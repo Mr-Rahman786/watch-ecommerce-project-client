@@ -21,11 +21,11 @@ const router = createBrowserRouter([
             },
             {
                 path: '/services',
-                element:<Services></Services>
+                element: <PrivateRoute><Services></Services></PrivateRoute>
             },
             {
                 path: '/watch',
-                element:<Product></Product>
+                element: <Product></Product>
             },
             {
                 path: '/accosories',

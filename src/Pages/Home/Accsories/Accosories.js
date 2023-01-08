@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import SingleAccsories from './SingleAccsories';
 
 const Accosories = () => {
-    const [ accsories, setAccsories ] = useState([]);
+    const [accsories, setAccsories] = useState([]);
+    
     useEffect(() => {
         fetch('http://localhost:5000/accsories')
             .then(res => res.json())
