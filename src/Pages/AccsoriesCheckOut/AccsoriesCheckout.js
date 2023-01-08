@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import { AuthContext } from '../../Context/AuthProvider/Authprovider';
 
 const AccsoriesCheckout = () => {
@@ -64,7 +64,14 @@ const AccsoriesCheckout = () => {
                     <input name='lastName' type="text" placeholder="Last Name" className="input input-bordered" />
                     <input name='phone' type="number" placeholder="Your phone" className="input input-bordered" required/>
                     <input name='email' type="email" placeholder="Your Email" className="input input-bordered" defaultValue={user?.email} readOnly />
-                    <button type='submit' className="btn btn-outline btn-info">Place This Order</button>
+                    <dir className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
+                        <div>
+                            <Link to='/accosories'><button className="btn btn-active btn-secondary">Back To Accsories</button></Link>
+                        </div>
+                        <div>
+                            <button type='submit' className="btn btn-outline btn-info">Place This Order</button>
+                        </div>
+                    </dir>
                 </div>
             </form>
         </div>

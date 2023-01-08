@@ -6,6 +6,7 @@ import DashBord from '../../Pages/DashBord/DashBord';
 import Accosories from '../../Pages/Home/Accsories/Accosories';
 import Home from '../../Pages/Home/Home/Home';
 import Login from '../../Pages/Home/Login/Login';
+import PrivateRoute from '../../Pages/PrivateRoute/PrivateRoute';
 import Product from '../../Pages/Services/Product';
 import Services from '../../Pages/Services/Services';
 import Signup from '../../Pages/Signup/Signup';
@@ -50,7 +51,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/dashbord',
-                element:<DashBord></DashBord>
+                element: <PrivateRoute><DashBord></DashBord></PrivateRoute>
             }
         ]
     }

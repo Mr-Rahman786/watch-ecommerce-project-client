@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../Context/AuthProvider/Authprovider';
+import SocialLogIn from '../../SocialLogin/SocialLogIn';
 import './Login.css'
 const Login = () => {
     const { logIn } = useContext(AuthContext);
@@ -46,7 +47,8 @@ const Login = () => {
                                         <Link>Forget Password</Link>
                                         <Link to='/signup'>Signup</Link>
                                     </div>
-                                    <input type="submit" value="login" />
+                                    <button><input type="submit" value="login" /></button>
+                                    <SocialLogIn></SocialLogIn>
                                 </form>
                             </div>
                         </div>

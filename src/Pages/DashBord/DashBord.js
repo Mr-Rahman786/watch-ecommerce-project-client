@@ -14,6 +14,40 @@ const DashBord = () => {
             .then(data => setOrder(data))
 
     }, [user?.email])
+
+    const handleDelete = id => {
+        const proceed = window.confirm('Are you sure to want to cancel this item?')
+        if (proceed) {
+            fetch(`http://localhost:5000/orders/${id}`, {
+                method: 'DELETE',
+
+            })
+                .then(res => res.json())
+                .then(data => {
+                    console.log(data);
+                    if (data.deletedCount > 0) {
+                        alert('Deleted Successfully')
+                        const remaining = orders.filter(odr => odr._id !== id);
+                        setOrder(remaining)
+                    }
+                })
+        }
+    }
+
+    // const handleUpdate = id => {
+    //     fetch(`http://localhost:5000/orders/${id}`, {
+    //         method: 'PATCH',
+    //         headers: {
+    //             'content-type':'application/json'
+    //         },
+    //         body:JSON.stringify({status:'Approved'})
+    //     })
+    //         .then(res => res.json())
+    //         .then(data => {
+    //         console.log(data)
+    //     })
+    // }
+
     return (
         <div>
             <h1>You Have an {orders.length} Orders</h1>
@@ -32,7 +66,7 @@ const DashBord = () => {
                             <th></th>
                             <th>Customer phone or Name</th>
                             <th>Email</th>
-                            <th></th>
+                            <th> Approved</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -40,6 +74,8 @@ const DashBord = () => {
                             orders.map(order => <DashBordRow
                                 key={order._id}
                                 order={order}
+                                handleDelete={handleDelete}
+                                // handleUpdate={handleUpdate}
                             ></DashBordRow>)
                         }
                     </tbody>

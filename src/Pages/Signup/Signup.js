@@ -1,6 +1,8 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../Context/AuthProvider/Authprovider';
+import SocialLogIn from '../SocialLogin/SocialLogIn';
+import './Signup.css'
 
 const Signup = () => {
     const { createUser }=useContext(AuthContext)
@@ -20,14 +22,14 @@ const Signup = () => {
 
     return (
 
-        <div className='max-w-fit mx-auto'>
+        <div className='max-w-fit mx-auto mobile'>
             <div className="mockup-phone">
                 <div className="camera"></div>
                 <div className="display">
                     <div className="artboard artboard-demo phone-1">
                         <div className='body'>
-                            <div className='box'>
-                                <form onSubmit={handelSignUp} className="form">
+                            <div className='box signUp-box'>
+                                <form onSubmit={handelSignUp} className="form ">
                                     <h2>Sign Up</h2>
                                     <div className="inputBox">
                                         <input type="text" name="name" id="" required />
@@ -48,7 +50,9 @@ const Signup = () => {
                                         <Link to='/login'>Already have an Account?</Link>
                                         <Link to='/login'>login</Link>
                                     </div>
-                                    <input type="submit" value="login" />
+                                    <button><input type="submit" value="Register" /></button>
+                                    <SocialLogIn></SocialLogIn>
+
                                 </form>
                             </div>
                         </div>
