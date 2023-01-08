@@ -9,7 +9,7 @@ const DashBord = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/orders?email=${user?.email}`)
+        fetch(`https://final-projects-server.vercel.app/orders?email=${user?.email}`)
             .then(res => res.json())
             .then(data => setOrder(data))
 
@@ -18,7 +18,7 @@ const DashBord = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you sure to want to cancel this item?')
         if (proceed) {
-            fetch(`http://localhost:5000/orders/${id}`, {
+            fetch(`https://final-projects-server.vercel.app/orders/${id}`, {
                 method: 'DELETE',
 
             })
@@ -35,7 +35,7 @@ const DashBord = () => {
     }
 
     // const handleUpdate = id => {
-    //     fetch(`http://localhost:5000/orders/${id}`, {
+    //     fetch(`https://final-projects-server.vercel.app/orders/${id}`, {
     //         method: 'PATCH',
     //         headers: {
     //             'content-type':'application/json'

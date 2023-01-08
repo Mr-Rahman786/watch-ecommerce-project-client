@@ -42,12 +42,12 @@ const router = createBrowserRouter([
             {
                 path: '/cheackout/:id',
                 element: <Cheackout></Cheackout>,
-                loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+                loader: ({ params }) => fetch(`https://final-projects-server.vercel.app/services/${params.id}`)
             },
             {
                 path: '/accsoriesCheckout/:id',
                 element: <AccsoriesCheckout></AccsoriesCheckout>,
-                loader: ({ params }) => fetch(`http://localhost:5000/accsories/${params.id}`)
+                loader: ({ params }) => fetch(`https://final-projects-server.vercel.app/accsories/${params.id}`)
             },
             {
                 path: '/dashbord',

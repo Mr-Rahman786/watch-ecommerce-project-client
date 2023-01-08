@@ -3,15 +3,15 @@ import React, { useEffect, useState } from 'react';
 const DashBordRow = ({ order, handleDelete, handleUpdate }) => {
     const { _id, serviceName, email, customer, phone, oldPrice, service, status } = order;
     const [orderService, setOrderService] = useState({});
-    
+
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${service}`)
+        fetch(`https://final-projects-server.vercel.app/services/${service}`)
             .then(res => res.json())
             .then(data => setOrderService(data))
     }, [service])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/accsories/${service}`)
+        fetch(`https://final-projects-server.vercel.app/accsories/${service}`)
             .then(res => res.json())
             .then(data => setOrderService(data))
     }, [service])

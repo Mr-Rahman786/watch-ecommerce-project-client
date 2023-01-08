@@ -5,7 +5,7 @@ const Accosories = () => {
     const [accsories, setAccsories] = useState([]);
     
     useEffect(() => {
-        fetch('http://localhost:5000/accsories')
+        fetch('https://final-projects-server.vercel.app/accsories')
             .then(res => res.json())
         .then(data =>setAccsories(data))
     },[])
