@@ -29,7 +29,7 @@ const DashBord = () => {
                                 Product Name & Image
                             </th>
                             
-                            <th>Price</th>
+                            <th></th>
                             <th>Customer phone or Name</th>
                             <th>Email</th>
                             <th></th>
