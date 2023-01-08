@@ -6,8 +6,8 @@ import catagory3 from '../../assets/watchBanner/watchBanner-3.jpg'
 const Services = () => {
     return (
         <div className='pt-10'>
-            <h1 className='text-center text-5xl'>Our Catagories</h1>
-            <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-10 '>
+            <h1 className='text-center text-5xl font-bold'>Our Catagories</h1>
+            <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-10 mt-5 '>
                 <div className="card w-96 bg-base-100 shadow-xl image-full">
                     <figure><img src={catagory1} alt="Shoes" /></figure>
                     <div className="card-body mt-40 ">

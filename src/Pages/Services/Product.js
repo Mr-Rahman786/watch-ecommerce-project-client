@@ -11,9 +11,9 @@ const Product = () => {
     return (
         <div>
             <div>
-                <h1 className='font-semibold'>Apple watch</h1>
+                <h1 className='font-semibold text-4xl text-center'>Apple watch</h1>
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-6'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-6 mt-10'>
                 {
                     products.map(product => <SingleProducts
                         key={product._id}
