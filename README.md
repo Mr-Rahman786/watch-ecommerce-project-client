@@ -1,4 +1,12 @@
+# i will be add to this project here is not any customer to buy product or resale when user will be log in or register he will do this 
+project live site : https://watch-resale.web.app/
+
+# when user will be log in is here there will be show user profile image and name 
+
+# there i will be show that reseller profile picture and posted date
+
 # Getting Started with Create React App
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
